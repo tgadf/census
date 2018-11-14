@@ -3,5 +3,5 @@ def getStateData(State):
 	try:
 		retval = data[State]
 	except:
-		retval = Nne
+		retval = None
 	return retval

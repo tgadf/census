@@ -3,5 +3,5 @@ def getCSAData(CSA):
 	try:
 		retval = data[CSA]
 	except:
-		retval = Nne
+		retval = None
 	return retval
